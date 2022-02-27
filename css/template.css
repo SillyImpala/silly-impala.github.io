@@ -31,16 +31,23 @@ a:hover{
 .QBLI{
 	list-style:none;
 	float:right;
-	height:60px;
-	padding:10px;
+	height:50px;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
 	font-size:24px;
 	font-weight:bold;
 	padding-top:15px;
 	margin-right:10px;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
 }
 .QBLI:hover{
 	background:rgba(255,255,255,0.1);
 	color:f599be;
+	border-radius-bottom-left:10px;
+	border-radius-bottom-right:10px;
+	transition:background 0.2s, color 0.2s, border-radius-bottom-left 0.2s, border-radius-bottom-right 0.2s;
 }
 
 ::selection{
@@ -66,5 +73,5 @@ a:hover{
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #003f6f;
+  background: #b5597e;
 }
