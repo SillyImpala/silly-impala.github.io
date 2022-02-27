@@ -4,11 +4,35 @@
 
 #Landing{
 	width:100%;
-	height:100%;
-	background:#1a1e19;
+	height:80%;
+	background:#101010;
 	background-image:url("https://images.hdqwalls.com/wallpapers/synthwave-night-sunset-anime-girl-4k-2j.jpg");
 	background-size:cover;
 }
 .LandingTitle{
 	padding-top:300px;
+}
+
+#content{
+	background:#1e1e1e;
+	overflow:hidden;
+}
+.con_welcome{
+	padding-left:100px;
+	padding-top:70px;
+	padding-bottom:70px;
+	font-size:40px;
+	font-weight:bolder;
+	float:left;
+}
+
+
+#streaming_services{
+	margin-top:-50px;
+}
+.service_list{
+	list-style:none;
+}
+.service_list_item{
+	
 }

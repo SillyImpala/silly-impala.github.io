@@ -77,3 +77,15 @@ a:hover{
 ::-webkit-scrollbar-thumb:hover {
   background: #b5597e;
 }
+
+.service_img{
+	width:100px;
+	padding-bottom:10px;
+	padding-right:20px;
+}
+.service_img_apple{
+	width:100px;
+	transform:translate(0px,-3px);
+	padding-bottom:10px;
+	padding-right:20px;
+}
