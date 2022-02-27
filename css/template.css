@@ -31,7 +31,7 @@ a:hover{
 .QBLI{
 	list-style:none;
 	float:right;
-	height:50px;
+	height:48px;
 	padding-top:10px;
 	padding-left:10px;
 	padding-right:10px;
@@ -39,6 +39,7 @@ a:hover{
 	font-weight:bold;
 	padding-top:15px;
 	margin-right:10px;
+	border-bottom:solid 0px #000;
 	border-bottom-left-radius:8px;
 	border-bottom-right-radius:8px;
 }
@@ -47,7 +48,8 @@ a:hover{
 	color:f599be;
 	border-radius-bottom-left:10px;
 	border-radius-bottom-right:10px;
-	transition:background 0.2s, color 0.2s, border-radius-bottom-left 0.2s, border-radius-bottom-right 0.2s;
+	border-bottom:solid 3px rgba(0,0,0,0.8)/*(111,207,242,0.5)*/;
+	transition:background 0.2s, color 0.2s, border-radius-bottom-left 0.2s, border-radius-bottom-right 0.2s, border-bottom 0.1s;
 }
 
 ::selection{
