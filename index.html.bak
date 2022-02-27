@@ -14,6 +14,11 @@
 					<a href="#"><li class="QBLI">Home</li></a>
 				</ul>
 			</div>
+			
+			<video autoplay muted loop id="landingVideo">
+				<source src="videos/silly-impala_web_video.webm" type="video/webm">
+			</video>
+			
 			<div id="Landing">
 				<center>
 					<h1 class="LandingTitle">Silly Impala Music</h1>
@@ -23,21 +28,25 @@
 			<div id="strmsrv">
 				<div id="streaming_services">
 					<ul class="service_list">
-					<center>
-						<li><img class="service_img" src="images/spotifylogo.png" width="100"><img class="service_img" src="images/applemusiclogo.png" width="100"></li>
-					</center>
+						<a href="https://music.amazon.com/artists/B09RTVP673/silly-impala" target="_blank" rel="noopener noreferrer"><li class="service_list_item_amazon">a</li></a>
+						<a href="https://music.apple.com/us/artist/silly-impala/1606891102" target="_blank" rel="noopener noreferrer"><li class="service_list_item_apple">a</li></a>
+						<a href="https://open.spotify.com/artist/5tNdat87EpWUPPXXMIfF8m?si=obvxiJ_iT4yVWtDiH9X4QQ" target="_blank" rel="noopener noreferrer"><li class="service_list_item_spotify">a</li></a>
 					</ul>
 				</div>
-				<div id="content">
-					<h1 class="con_welcome">Music to your ears.</h1>
+				<div id="content_title">
+					<h1 class="con_welcome">80's Synthwave enthusiast.</h1>
 				</div>
 			</div>
-			<div id="bottom">
-				<h3>Music</h3>
+			<div id="content">
+				<div id="content_p1">
+					<h2>I am Silly Impala.</h2>
+					<p>
+					Hi, I'm pleased to welcome you to my domain.<br />
+					I'm an indie artist who enjoys making music for fun. I mainly like to make 80's inspired Synthwave/Vaporwave music, but can make just about anything I put my mind to.<br />
+					My mission is to make the world feel a little less dramatic through the power of music. I might be only one person, but if I can inspire even one other person, I am more than content with that.
+					</p>
+				</div>
 			</div>
-			<div id="footer">
-				<h4>Feet</h4>
-			</div-->
 		</div>
 	</body>
 </html>
