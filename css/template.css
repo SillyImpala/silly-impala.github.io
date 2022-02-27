@@ -1,0 +1,79 @@
+*{
+	color:#f3f6da;
+	margin:0px;
+	font-family:Courier New;
+}
+
+a:link{
+	color:#f3f6da;
+	text-decoration:none;
+}
+a:visited{
+	color:#f3f6da;
+	text-decoration:none;
+}
+a:hover{
+	color:#f599be;
+	text-decoration:none;
+	transition:background 0.2s;
+}
+
+#Quickbar{
+	list-style:none;
+	position:fixed;
+	width:100%;
+	height:60px;
+	background-color:rgba(0,0,0,0.5);
+}
+.QBUL{
+	list-style:none;
+}
+.QBLI{
+	list-style:none;
+	float:right;
+	height:48px;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	font-size:24px;
+	font-weight:bold;
+	padding-top:15px;
+	margin-right:10px;
+	border-bottom:solid 0px #000;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+}
+.QBLI:hover{
+	background:rgba(255,255,255,0.1);
+	color:f599be;
+	border-radius-bottom-left:10px;
+	border-radius-bottom-right:10px;
+	border-bottom:solid 3px rgba(0,0,0,0.8)/*(111,207,242,0.5)*/;
+	transition:background 0.2s, color 0.2s, border-radius-bottom-left 0.2s, border-radius-bottom-right 0.2s, border-bottom 0.1s;
+}
+
+::selection{
+	background:#f599be;
+	color:#1e1e1e;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #101010;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius:10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b5597e;
+}
