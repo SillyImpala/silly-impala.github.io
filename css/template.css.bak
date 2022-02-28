@@ -99,5 +99,5 @@ a:hover{
 	padding:20px 80px;
 	min-height:100px;
 	text-align:center;
-	color:#5f5a0f;
+	color:#666959;
 }
