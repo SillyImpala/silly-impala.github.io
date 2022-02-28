@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Silly Impala Music - Music</title>
+		<link rel="stylesheet" type="text/css" href="css/discord.css">
+		<link rel="stylesheet" type="text/css" href="css/template.css">
+	</head>
+	
+	<body>
+		<div id="container">
+			<div id="Quickbar">
+				<ul class="QBUL">
+					<a href="#"><li class="QBLI">Discord</li></a>
+					<a href="music.html"><li class="QBLI">Music</li></a>
+					<a href="index.html"><li class="QBLI">Home</li></a>
+				</ul>
+			</div>
+			
+			<div id="top_banner">
+				<h1>A Discord?</h1>
+			</div>
+			<div id="img_banner">
+				<img src="images/discordbg.png" class="discord_img">
+				<div class="discord_img_title">
+					<h1>The Silly Impala Discord</h1>
+					<p><br /><br />
+						Interested in joining my Discord server?<br />
+						I like to have a lot of fun socialising with my friends. If you're down to be around for the ride, you're more than welcome to join my public Discord server.
+						Here, you'll be able to hear the latest sounds direct from my computer! I like to tinker, so you'll hear a lot of what goes on behind the scenes of my music production.<br /><br />
+						
+						I'm also down to be challenged. If you've got a creative idea for a song, or want to see what I think an image would sound like,
+						feel free to post a picture and tell me you're challenging me! (Just be prepared for me to challenge you back!)
+					</p>
+					<center>
+						<a href="https://discord.com/invite/xT8dUmVq9f" target="_blank" rel="noopener noreferrer"><li class="discordJoin">Join</li></a>
+					</center>
+				</div>
+			</div>
+			<div id="footer">
+				Copyright &copy; 2022 Silly Impala
+			</div>
+		</div>
+	</body>
+</html>

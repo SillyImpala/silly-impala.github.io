@@ -1,0 +1,63 @@
+@font-face{
+	font-family:UniSansHeavy;
+	src:url("fonts/unisansheavy.otf") format("opentype");
+}
+
+#container{
+	width:100%;
+	height:100%;
+	background:#1e1e1e
+}
+
+#top_banner{
+	margin-left:auto;
+	margin-right:auto;
+	background:#1e1e1e;
+	padding-top:150px;
+	padding-left:100px;
+	padding-bottom:30px;
+}
+
+#img_banner{
+	background:#0b0b0b;
+	box-shadow:0px 0px 15px #000 inset;
+	padding-top:30px;
+	padding-bottom:30px;
+	overflow:auto;
+}
+
+.discord_img{
+	margin:auto;
+	float:right;
+	width:50%;
+	padding-right:10%
+}
+.discord_img_title{
+	margin:auto;
+	float:right;
+	width:30%;
+	padding-right:5%;
+	overflow:auto;
+}
+
+.discordJoin{
+	list-style:none;
+	line-height:31px;
+	color:#fff;
+	min-width:60px;
+	min-height:32px;
+	font-family:Roboto,sans-serif;
+	background:#7289da;
+	border:0px;
+	border-radius:3px;
+	padding:2px 16px;
+	font-size:14px;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	left:16%;
+}
+.discordJoin:hover{
+	background:#5067b8;
+	transition:background 0.2s;
+}

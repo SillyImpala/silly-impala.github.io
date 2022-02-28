@@ -1,5 +1,11 @@
 <html>
 	<head>
+	
+		<meta charset="UTF-8">
+		<meta name="description" content="The home for Silly Impala on the web.">
+		<meta name="keywords" content="Music, Synthwave, Silly, Impala, Silly-Impala, Sarcastic-Impala, 80's inspired">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 		<title>Silly Impala Music</title>
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<link rel="stylesheet" type="text/css" href="css/template.css">
@@ -21,16 +27,20 @@
 			
 			<div id="Landing">
 				<center>
-					<h1 class="LandingTitle">Silly Impala Music</h1>
+					<h1 class="LandingTitle">
+						<div id="LT_Styling">
+							Silly Impala Music
+						</div>
+					</h1>
 					
 				</center>
 			</div>
 			<div id="strmsrv">
 				<div id="streaming_services">
 					<ul class="service_list">
-						<a href="https://music.amazon.com/artists/B09RTVP673/silly-impala" target="_blank" rel="noopener noreferrer"><li class="service_list_item_amazon">a</li></a>
-						<a href="https://music.apple.com/us/artist/silly-impala/1606891102" target="_blank" rel="noopener noreferrer"><li class="service_list_item_apple">a</li></a>
-						<a href="https://open.spotify.com/artist/5tNdat87EpWUPPXXMIfF8m?si=obvxiJ_iT4yVWtDiH9X4QQ" target="_blank" rel="noopener noreferrer"><li class="service_list_item_spotify">a</li></a>
+						<a href="https://music.amazon.com/artists/B09RTVP673/silly-impala" target="_blank" rel="noopener noreferrer"><li class="service_list_item"><img class="service_img" src="images/amazonmusiclogo.png" width="100"></li></a>
+						<a href="https://music.apple.com/us/artist/silly-impala/1606891102" target="_blank" rel="noopener noreferrer"><li class="service_list_item"><img class="service_img" src="images/applemusiclogo.png" width="100"></li></a>
+						<a href="https://open.spotify.com/artist/5tNdat87EpWUPPXXMIfF8m?si=obvxiJ_iT4yVWtDiH9X4QQ" target="_blank" rel="noopener noreferrer"><li class="service_list_item"><img class="service_img" src="images/spotifylogo.png" width="100"></li></a>
 					</ul>
 				</div>
 				<div id="content_title">
